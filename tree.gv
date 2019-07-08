@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<soy sauce &le; 0.5<br/>gini = 0.766<br/>samples = 24272<br/>value = [1, 2672, 3003, 7838, 6438, 4320]>, fillcolor="#eff7fd"] ;
+1 [label=<cumin &le; 0.5<br/>gini = 0.748<br/>samples = 22811<br/>value = [1, 1309, 2983, 7823, 6396, 4299]>, fillcolor="#eef6fd"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label=<olive oil &le; 0.5<br/>gini = 0.736<br/>samples = 19928<br/>value = [1, 1304, 2137, 7790, 4459, 4237]>, fillcolor="#d4eaf9"] ;
+1 -> 3 ;
+5 [label=<extra-virgin olive oil &le; 0.5<br/>gini = 0.765<br/>samples = 15561<br/>value = [1, 1245, 1909, 4698, 3768, 3940]>, fillcolor="#f2f9fd"] ;
+3 -> 5 ;
+7 [label=<grated parmesan cheese &le; 0.5<br/>gini = 0.772<br/>samples = 14030<br/>value = [1, 1238, 1874, 3414, 3653, 3850]>, fillcolor="#fffbfd"] ;
+5 -> 7 ;
+9 [label=<cumin seed &le; 0.5<br/>gini = 0.772<br/>samples = 13237<br/>value = [1, 1236, 1874, 2708, 3636, 3782]>, fillcolor="#fffcfe"] ;
+7 -> 9 ;
+11 [label=<buttermilk &le; 0.5<br/>gini = 0.764<br/>samples = 12621<br/>value = [1, 1231, 1339, 2708, 3570, 3772]>, fillcolor="#fefbfd"] ;
+9 -> 11 ;
+15 [label=<gini = 0.768<br/>samples = 11981<br/>value = [1, 1230, 1330, 2686, 3558, 3176]>, fillcolor="#faf6fe"] ;
+11 -> 15 ;
+16 [label=<gini = 0.131<br/>samples = 640<br/>value = [0, 1, 9, 22, 12, 596]>, fillcolor="#e747a4"] ;
+11 -> 16 ;
+12 [label=<gini = 0.234<br/>samples = 616<br/>value = [0, 5, 535, 0, 66, 10]>, fillcolor="#56e994"] ;
+9 -> 12 ;
+10 [label=<gini = 0.2<br/>samples = 793<br/>value = [0, 2, 0, 706, 17, 68]>, fillcolor="#51a9e8"] ;
+7 -> 10 ;
+8 [label=<gini = 0.287<br/>samples = 1531<br/>value = [0, 7, 35, 1284, 115, 90]>, fillcolor="#5caeea"] ;
+5 -> 8 ;
+6 [label=<gini = 0.466<br/>samples = 4367<br/>value = [0, 59, 228, 3092, 691, 297]>, fillcolor="#7ebfee"] ;
+3 -> 6 ;
+4 [label=<garam masala &le; 0.5<br/>gini = 0.462<br/>samples = 2883<br/>value = [0, 5, 846, 33, 1937, 62]>, fillcolor="#bc95f1"] ;
+1 -> 4 ;
+13 [label=<gini = 0.377<br/>samples = 2537<br/>value = [0, 5, 500, 33, 1937, 62]>, fillcolor="#a673ed"] ;
+4 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 346<br/>value = [0, 0, 346, 0, 0, 0]>, fillcolor="#39e581"] ;
+4 -> 14 ;
+2 [label=<gini = 0.128<br/>samples = 1461<br/>value = [0, 1363, 20, 15, 42, 21]>, fillcolor="#a4e747"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
