@@ -41,3 +41,8 @@ Finally, I used data augmentation of the text data to increase the number of exa
 <img src = images/image_5.png>
 
 <img src = images/image_6.png>
+
+
+## Try the code
+
+The code for this data chanllenge is in the notebook folder. Github doesn't always load well for large ipynb file, therefore, I also converted the ipynb file to mb file in the folder.
