@@ -30,7 +30,7 @@ My next task is to generate an instruction for hand labelling for a few major cu
 
 I then used a random forest classifier to classify all cuisine to see if I can find an AI solution to replace hand labelling. The result is as shown below. One thing I noticed that is although there are almost equal amount of common ingredients between 'brazillian' and 'italian', and 'brazillian' and 'chinese', it is quite likely to classify 'brazillian' as 'italian' but not 'chinese'. Therefore, it is the combination of ingredients that matters.
 
-<img src = images/image_3.png>
+<img src = images/image_3.jpg>
 
 I decided to use bidirectional RNN model, which shows a great improvement from the random forest.
 
